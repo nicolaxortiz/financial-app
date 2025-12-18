@@ -191,7 +191,7 @@ export default function MoveModal({ handleClose, open, method }) {
               }
               fullWidth
               timezone="system"
-              format="DD/MM/YYYY"
+              format="MM/DD/YYYY"
               sx={errors.date ? { mb: "0px" } : { mb: "20px" }}
               {...register("date", {
                 required: true,
