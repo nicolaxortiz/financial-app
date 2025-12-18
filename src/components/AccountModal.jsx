@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form";
 import { Box, Stack, Button, Collapse, Alert, TextField } from "@mui/material";
 import "../app.css";
 import { accountsAPI } from "../API/accounts";
-import { UseContext } from "../hooks/useContext";
+import { UseContext } from "../hooks/UseContext";
 import { LoadingButton } from "@mui/lab";
 
 export default function AccountModal({

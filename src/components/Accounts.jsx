@@ -3,7 +3,7 @@ import { Button, Stack, Skeleton, Menu, MenuItem } from "@mui/material";
 import AccountModal from "./AccountModal";
 import { accountsAPI } from "../API/accounts";
 import AddIcon from "@mui/icons-material/Add";
-import { UseContext } from "../hooks/useContext";
+import { UseContext } from "../hooks/UseContext";
 import { Delete, Edit } from "@mui/icons-material";
 import { set } from "react-hook-form";
 
