@@ -11,7 +11,7 @@ import ListItemText from "@mui/material/ListItemText";
 import { Logout } from "@mui/icons-material";
 import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
 import { useNavigate } from "react-router";
-import { UseContext } from "../hooks/useContext";
+import { UseContext } from "../hooks/UseContext";
 
 export default function SideMenu() {
   const navigate = useNavigate();
