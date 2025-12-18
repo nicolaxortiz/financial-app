@@ -1,4 +1,4 @@
-const url = "http://localhost:3000/api/codes";
+const url = import.meta.env.VITE_API_URL + "codes";
 
 export const codesAPI = {
   create: async (id_user, email) => {

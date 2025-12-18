@@ -1,4 +1,4 @@
-const url = "http://localhost:3000/api/users";
+const url = import.meta.env.VITE_API_URL + "users";
 
 export const usersAPI = {
   create: async (data) => {
@@ -29,13 +29,13 @@ export const usersAPI = {
     return dataResponse;
   },
 
-  getByEmail: async(email) => {
+  getByEmail: async (email) => {
     const response = await fetch(`${url}/forgot`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({email}),
+      body: JSON.stringify({ email }),
     });
 
     const dataResponse = await response.json();
